@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "jobTitle": "Software Engineer",
+    "jobAvailable": 233
+  },
+  {
+    "id": 2,
+    "company": "Company B",
+    "jobTitle": "Frontend Developer",
+    "jobAvailable": 70
+  },
+  {
+    "id": 3,
+    "jobTitle": "Data Scientist",
+    "jobAvailable": 97
+  },
+  {
+    "id": 4,
+    "jobTitle": "Product Manager",
+    "jobAvailable": 150
+  }
+]
