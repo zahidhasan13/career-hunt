@@ -7,7 +7,7 @@ import Statistics from './components/Statistics/Statistics.jsx';
 import Blog from './components/Blog/Blog.jsx';
 import AppliedJob from './components/AppliedJob/AppliedJob.jsx';
 import Home from './components/Home/Home.jsx';
-import loadedJobCategory from './components/loader/JobCategoryLoader.js';
+import loadedJobCategory from './loader/JobCategoryLoader.js';
 
 
 
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: loadedJobCategory
+        loader: loadedJobCategory,
       },
       {
         path: "statistics",
