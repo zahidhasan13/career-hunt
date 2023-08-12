@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Job from "../Job/Job";
 
-const FeaturesJob = ({ jobs, setJobs }) => {
+const FeaturesJob = ({ jobs }) => {
     const data = 4;
-    const [show, setShow] = React.useState(data);
+    const [show, setShow] = useState(data);
+    const [isLoading, setIsLoading] = useState(false);
 
     //when click on see more button, load 4 more jobs
     const handleSeeMore = () => {
-        setShow((prevValue) => prevValue + 4);
-    };
+      setIsLoading(true);
+      setTimeout(() => {
+        setShow(show + data);
+        setIsLoading(false);
+      }, 500);
+    }
 
     return (
         <section className="">
@@ -24,11 +29,12 @@ const FeaturesJob = ({ jobs, setJobs }) => {
                     </p>
                 </div>
                 <div className="lg:grid lg:grid-cols-2 lg:gap-4">
-                    {jobs?.slice(0, show)?.map((job) => (
+                    {jobs.slice(0, show).map((job) => (
                         <Job key={job.id} job={job}></Job>
                     ))}
                 </div>
-                {show < jobs.length && (
+                {
+                  isLoading ? "Loading....." : <>{show < jobs.length && (
                     <div className="text-center">
                         <button
                             className="text-white py-2 px-4 rounded bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500"
@@ -37,7 +43,8 @@ const FeaturesJob = ({ jobs, setJobs }) => {
                             See More
                         </button>
                     </div>
-                )}
+                )}</>
+                }
             </div>
         </section>
     );
