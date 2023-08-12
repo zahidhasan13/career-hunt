@@ -1,7 +1,7 @@
 import React from 'react';
 import Job from '../Job/Job';
 
-const FeaturesJob = ({jobs}) => {
+const FeaturesJob = ({jobs,}) => {
     return (
         <section className="">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
@@ -21,6 +21,9 @@ const FeaturesJob = ({jobs}) => {
                     job={job}
                     ></Job>)
             }
+        </div>
+        <div className="text-center">
+        <button className="text-white py-2 px-4 rounded bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500">See More</button>
         </div>
       </div>
     </section>

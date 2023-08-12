@@ -12,7 +12,7 @@ const Home = () => {
         fetch('jobs.json')
       .then(res => res.json())
       .then(data => setJobs(data))
-    },[])
+    },[]);
 
     return (
         <div className=''>
