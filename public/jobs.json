@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "eukjfncschkjbdfkuwe-jgjggdfd-c",
     "companyName": "Google",
     "salary": "120,000k - 150,000k",
     "address": "Mountain View, CA",
@@ -15,7 +15,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 2,
+    "id": "zdiuhkjnfiocfluihsfh-jgjggdfd-c",
     "companyName": "Apple",
     "salary": "130,000k - 160,000k",
     "address": "Cupertino, CA",
@@ -30,7 +30,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 3,
+    "id": "usfvhsjdvh8sdjfngw-jgjggdfd-c",
     "companyName": "Microsoft",
     "salary": "110,000k - 140,000k",
     "address": "Redmond, WA",
@@ -45,7 +45,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 4,
+    "id": "ihdvjks8fws8ersvb-jgjggdfd-c",
     "companyName": "Amazon",
     "salary": "100,000k - 130,000k",
     "address": "Seattle, WA",
@@ -60,7 +60,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 5,
+    "id": "kjsvnjlzxnxcw84f-jgjggdfd-c",
     "companyName": "Facebook",
     "salary": "140,000k - 170,000k",
     "address": "Menlo Park, CA",
@@ -75,7 +75,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 6,
+    "id": "zlkmfcbvrfbzmncfiweekly-jgjggdfd-c",
     "companyName": "Netflix",
     "salary": "150,000k - 180,000k",
     "address": "Los Gatos, CA",
@@ -90,7 +90,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 7,
+    "id": "jkfdvhasjlhf8ovhsjkldvnosaifuw-jgjggdfd-c",
     "companyName": "Tesla",
     "salary": "120,000k - 150,000k",
     "address": "Palo Alto, CA",
@@ -105,7 +105,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 8,
+    "id": "asfukhjdfgjknvuahgoiwhl-jgjggdfd-c",
     "companyName": "Amazon Web Services (AWS)",
     "salary": "130,000k - 160,000k",
     "address": "Seattle, WA",
@@ -120,7 +120,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 9,
+    "id": "bvurvbakfhkjvhuarnvsdag-jgjggdfd-c",
     "companyName": "Uber",
     "salary": "110,000k - 140,000k",
     "address": "San Francisco, CA",
@@ -135,7 +135,7 @@
     "email": "company@company.com"
   },
   {
-    "id": 10,
+    "id": "uhjgajshghjnvjag84bfj-jgjggdfd-c",
     "companyName": "Adobe",
     "salary": "100,000k - 130,000k",
     "address": "San Jose, CA",

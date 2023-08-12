@@ -12,7 +12,6 @@ import { useParams } from "react-router-dom";
 const JobDetails = () => {
   const { id } = useParams();
   const [jobs, setJobs] = useState([]);
-  const idNumber = Number(id);
 
   //fetch the data
   useEffect(() => {
@@ -22,7 +21,7 @@ const JobDetails = () => {
   }, []);
 
   //filter the data
-  const job = jobs?.find((job) => job.id === idNumber);
+  const job = jobs?.find((job) => job.id === id);
 
   return (
     <div>

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Job from "../Job/Job";
+import ClipLoader from "react-spinners/ClipLoader";
+
 
 const FeaturesJob = ({ jobs }) => {
     const data = 4;
@@ -34,7 +36,14 @@ const FeaturesJob = ({ jobs }) => {
                     ))}
                 </div>
                 {
-                  isLoading ? "Loading....." : <>{show < jobs.length && (
+                  isLoading ? <div className="text-center">
+                    <ClipLoader
+        loading={isLoading}
+        size={20}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
+                  </div> : <>{show < jobs.length && (
                     <div className="text-center">
                         <button
                             className="text-white py-2 px-4 rounded bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-blue-500 hover:to-cyan-500"
