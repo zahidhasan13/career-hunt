@@ -35,7 +35,7 @@ const JobDetails = () => {
                     Job Details
                 </h2>
             </div>
-            <div className=" max-w-screen-xl py-20 mlg:flex lg:justify-between mx-4">
+            <div className="max-w-screen-xl py-20 lg:flex lg:justify-between mx-4">
                 <div className="space-y-4 mb-10">
                     <p className="text-lg text-gray-500">
                         <span className="text-gray-950 font-bold">
