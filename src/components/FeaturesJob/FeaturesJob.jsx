@@ -14,7 +14,7 @@ const FeaturesJob = ({ jobs }) => {
       setTimeout(() => {
         setShow(show + data);
         setIsLoading(false);
-      }, 500);
+      }, 200);
     }
 
     return (

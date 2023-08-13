@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import logo from '../../assets/CareerHub.png'
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../assets/CareerHub.png';
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
-    <nav className="bg-[#F9F9FF] border-gray-200 lg:px-6 py-2.5">
+    <nav className="bg-[#F9F9FF] border-gray-200 lg:px-6 py-2.5 px-4">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <Link to="/" className='inline-block'>
                 <img src={logo} alt="Flowbite Logo" />

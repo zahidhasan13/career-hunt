@@ -1,9 +1,9 @@
 import {
-  faCalendar,
-  faDollar,
-  faEnvelope,
-  faLocation,
-  faPhone,
+    faCalendar,
+    faDollar,
+    faEnvelope,
+    faLocation,
+    faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
@@ -22,7 +22,6 @@ const JobDetails = () => {
 
   //filter the data
   const job = jobs?.find((job) => job.id === id);
-
   return (
     <div>
       <div>
@@ -30,8 +29,8 @@ const JobDetails = () => {
           Job Details
         </h2>
       </div>
-      <div className="mx-auto max-w-screen-xl py-20 flex justify-between">
-        <div className="space-y-4">
+      <div className="mx-auto max-w-screen-xl py-20 mlg:flex lg:justify-between mx-4">
+        <div className="space-y-4 mb-10">
           <p className="text-lg text-gray-500">
             <span className="text-gray-950 font-bold">Job Description: </span>
             {job?.jobDescription}
